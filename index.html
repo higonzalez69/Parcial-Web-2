@@ -4,9 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FRUVER</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+
   <header>
     <div class="logo">FRUVER</div>
     <nav>
@@ -14,21 +18,152 @@
         <li><a href="#">INICIO</a></li>
         <li><a href="#">TIENDA</a></li>
         <li><a href="#">PRODUCTOS</a></li>
-        <li><a href="#">PÁGINAS</a></li>
+        <li class="dropdown">
+          <a href="#">PÁGINAS</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Carrito</a></li>
+            <li><a href="#">Checkout</a></li>
+            <li><a href="#">Comentarios</a></li>
+          </ul>
+        </li>
         <li><a href="#">CONÓCENOS</a></li>
       </ul>
     </nav>
-  </header>
-  <div class="carousel">
-    <!-- Aquí colocaremos el carrusel de imágenes -->
-  </div>
-  <main>
-    <div class="grid-container">
-      <div class="cuadro uno">Cuadro 1</div>
-      <div class="cuadro dos">Cuadro 2</div>
-      <div class="cuadro tres">Cuadro 3</div>
-      <div class="cuadro cuatro">Cuadro 4</div>
+    <div class="icons">
+    <img src="images/busqueda.png" alt="lupa">
+    <img src="images/bolsa de compra.png" alt="bolsa">
+    <img src="images/hombre.png" alt="user"> 
     </div>
-  </main>
+  </header>
+
+<div c
+  <div class="carousel">
+    <div><img src="images/imagen1.jpg" alt="Imagen 1"></div>
+    <div><img src="images/imagen2.jpg" alt="Imagen 2"></div>
+    <div><img src="imagen3.jpg" alt="Imagen 3"></div>
+  </div>
+
+
+  <main class="main">
+
+    <div class="product-grid">
+
+        <div class="product">
+            <div class="product-image">
+                <img src="images/carro.png" alt="carro">
+            </div>
+            <div class="product-title">Free Shipping</div>
+            <div class="product-description">Descripción del Producto 1</div>
+        </div>
+
+        <div class="product">
+            <div class="product-image">
+                <img src="images/escudo.png" alt="Escudo">
+            </div>
+            <div class="product-title">Security Payment</div>
+            <div class="product-description">Descripción del Producto 1</div>
+        </div>
+
+        <div class="product">
+            <div class="product-image">
+                <img src="images/return.png" alt="Return">
+            </div>
+            <div class="product-title">30 Day Return</div>
+            <div class="product-description">Descripción del Producto 1</div>
+        </div>
+
+        <div class="product">
+            <div class="product-image">
+                <img src="images/soporte.png" alt="soporte">
+            </div>
+            <div class="product-title">24/7 Support</div>
+            <div class="product-description">Descripción del Producto 1</div>
+        </div>
+
+    </div>
+
+    <div class="productos-organicos">
+        <div class="titulo">Productos orgánicos</div>
+        <div class="botones">
+          <button>Todos los productos</button>
+          <button>Vegetales</button>
+          <button>Frutas</button>
+          <button>Pan de cereales</button>
+        </div>
+    
+</main>
+
+<div class="product-grid">
+
+    <div class="product">
+        <div class="product-image">
+        <img src="images/Fresa.jpg" alt="Fresa"> </div>
+        <div class="product-title">Fresas</div>
+        <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eius facere, incidunt delectus sit nobis voluptas. Nihil adipisci sint laudantium! Voluptatem vel cupiditate repellat eligendi illum sequi, tempore quibusdam fuga.</div>
+        <button class="product-price">$00.000</button>
+    </div>
+
+    <div class="product">
+        <div class="product-image">
+            <img src="images/Manzana.jpg" alt="Manzana"> </div>
+        <div class="product-title">Manzanas</div>
+        <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus placeat nesciunt deserunt laudantium assumenda, mollitia atque cum consequatur quasi officiis, aliquam itaque ratione, sunt at alias nihil explicabo odio voluptates.</div>
+        <button class="product-price">$00.000</button>
+    </div>
+
+    <div class="product">
+        <div class="product-image">
+            <img src="images/Cebolla.jpg" alt="Cebolla"> </div>
+        <div class="product-title">Cebollas</div>
+        <div class="product-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto rem debitis beatae fuga dolorem ratione? A corrupti tenetur expedita, ratione quaerat omnis animi cum dolor. Id illum animi quae illo?</div>
+        <button class="product-price">100.000</button>
+    </div>
+
+    <div class="product">
+        <div class="product-image">
+            <img src="images/banana.jpg" alt="Bananas"> </div>
+        <div class="product-title">Bananas</div>
+        <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aliquid veniam culpa recusandae laboriosam possimus maiores, quo omnis ratione quisquam iure quasi facilis nisi praesentium eos autem labore qui? Reiciendis.</div>
+        <button class="product-price">$00.000</button>
+    </div>
+
+    <div class="product">
+        <div class="product-image">
+            <img src="images/aij.jpg" alt="Ajis"> </div>
+        <div class="product-title">Aji</div>
+        <div class="product-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores dicta a voluptas non ducimus quo quam accusamus debitis ipsum. Nam molestiae veritatis, consectetur illum non eum asperiores quae ullam neque.</div>
+        <button class="product-price">$00.000</button>
+    </div>
+
+    <div class="product">
+        <div class="product-image">
+            <img src="images/Zanahoria.jpg" alt="Zanahoria"> </div>
+        <div class="product-title">Zanahorias</div>
+        <div class="product-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium beatae amet! Deleniti sapiente, eligendi veritatis facilis ullam praesentium aliquam repellat sit culpa, libero saepe officiis nemo asperiores itaque magni?</div>
+        <button class="product-price">$00.000</button>
+    </div>
+
+    <div class="product">
+        <div class="product-image">
+            <img src="images/Fresa.jpg" alt="Fresa"> </div>
+        <div class="product-title">Fresas</div>
+        <div class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum at ullam provident quam temporibus explicabo, esse voluptatum. Consequuntur obcaecati minima non nobis odio sapiente explicabo a vel voluptate. Dolores, voluptatem?</div>
+        <button class="product-price">$00.000</button>
+    </div>
+
+    <div class="product">
+        <div class="product-image">
+            <img src="images/banana.jpg" alt="banana">
+        </div>
+        <div class="product-title">Bananas</div>
+        <div class="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quae architecto nostrum nesciunt, odio, vero iste beatae deserunt libero, dolore ducimus laudantium minima exercitationem? Voluptatem perspiciatis consectetur placeat autem laudantium.</div>
+        <button class="product-price">$00.000</button>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="script.js"></script>
+  
 </body>
 </html>
